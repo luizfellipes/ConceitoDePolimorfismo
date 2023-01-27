@@ -35,4 +35,13 @@ public abstract class Animal {
     public abstract void locomover();
     public abstract void alimentar();
     public abstract void emitirSom();
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "peso=" + peso +
+                ", idade=" + idade +
+                ", membros=" + membros +
+                '}';
+    }
 }
